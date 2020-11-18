@@ -10,10 +10,10 @@ namespace Streams
     {
         static void Main()
         {
-            new UsingBinaryReader().MakingBinaryWriter();
-            new UsingBinaryReader().MakingBinaryReader();
+            //new UsingBinaryReader().MakingBinaryWriter();
+            //new UsingBinaryReader().MakingBinaryReader();
 
-            new UsingStreamReader().MakingStreamWriter();
+            //new UsingStreamReader().MakingStreamWriter();
             new UsingStreamReader().MakingStreamReader();
         }
     }

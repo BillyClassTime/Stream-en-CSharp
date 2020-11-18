@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-
+using static System.Console;
 namespace Streams
 {
     class UsingBinaryReader
@@ -27,6 +27,7 @@ namespace Streams
             {
                 // Set the value at the next index.
                 dataCollection[position] = (byte)returnedByte;
+                Write($"{returnedByte},");
                 // Advance our position variable.
                 position += sizeof(byte);
             }

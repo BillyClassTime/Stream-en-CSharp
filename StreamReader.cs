@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Text;
+using static System.Console;
 namespace Streams
 {
     class UsingStreamReader
@@ -25,6 +26,7 @@ namespace Streams
             }
             // Store the file contents in a new string variable.
             string data = fileContents.ToString();
+            WriteLine(data);
             // Always close the underlying streams release any file handles.
             reader.Close();
             sourceFile.Close();
